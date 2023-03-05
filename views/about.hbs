@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>webX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    {{>Navbar}}
+
+    <!-- main menu -->
+    <div class=" main_menu container">
+        <div class="row">
+            <div class="col-md-6 col-12 main_menu_right">
+                <figure class="aboutFigure">
+                    <img src="/images/profile.png" width="600px" height="400px" class="img-fluid" title="Shoaib" alt="">
+                </figure>
+            </div>
+            <!-- right -->
+            <div class="col-md-6 col-12 main_menu_left">
+                <p>Welcome to weather app</p>
+                <h1>I Am A <span>Mern Stack Developer</span> And A Freelancer</h1>
+                <a href="https://www.codewithharry.com" target="_blank"><button>About Me</button></a>
+            </div>
+        </div>
+    </div>
+    {{>Footer}}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c457fe72e9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
